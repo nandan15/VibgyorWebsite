@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .chatbot-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+        }
+        .chat-container {
+            display: none;
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 320px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .chat-header {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .chat-body {
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .chat-input-container {
+            display: flex;
+            border-top: 1px solid #ccc;
+            align-items: center;
+        }
+        .chat-input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+        .send-button {
+            background: #007bff;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .chat-message {
+            background: #f1f1f1;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .user-message {
+            background: #007bff;
+            color: white;
+            text-align: right;
+        }
+        .checkbox-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .submit-button {
+            display: none;
+            margin-top: 10px;
+            padding: 8px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="chatbot-button" onclick="toggleChat()">Chat</button>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            Chat with Vibgyor 🟢
+            <button type="button" class="btn-close" onclick="closeChat()">X</button>
+        </div>
+        <div class="chat-body" id="chatBody"></div>
+        <div class="chat-input-container">
+            <input type="text" id="chatInput" class="chat-input" onkeypress="handleKeyPress(event)">
+            <button class="send-button" onclick="handleSend()">&#10148;</button>
+        </div>
+    </div>
+
+    <script>
+        let step = 0;
+        let userData = {};
+        const options = [
+            "Full Home Interiors",
+            "Bedroom Interiors",
+            "Full Home Automation",
+            "Kitchen Interiors",
+            "Living Room Interiors",
+            "Home Renovation"
+        ];
+
+        function toggleChat() {
+            const chatContainer = document.getElementById("chatContainer");
+            if (chatContainer.style.display === "block") {
+                chatContainer.style.display = "none";
+            } else {
+                chatContainer.style.display = "block";
+                resetChat(); // Reset the chat every time the popup is opened
+            }
+        }
+
+        function closeChat() {
+            document.getElementById("chatContainer").style.display = "none";
+        }
+
+        function resetChat() {
+            step = 0;
+            userData = {};
+            const chatBody = document.getElementById("chatBody");
+            chatBody.innerHTML = "<div class='chat-message'>Hi there! 👋 Welcome to Vibgyor!</div>" +
+                                "<div class='chat-message'>Please enter your full name:</div>";
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "Enter") {
+                handleSend();
+            }
+        }
+
+        function handleSend() {
+            const inputField = document.getElementById("chatInput");
+            let userInput = inputField.value.trim();
+            if (!userInput) return;
+            
+            addUserMessage(userInput);
+            inputField.value = "";
+
+            if (step === 0) {
+                userData.name = userInput;
+                addBotMessage("Thanks! Please enter your phone number:");
+                step++;
+            } else if (step === 1) {
+                userData.phone = userInput;
+                addBotMessage("Great! Now, please enter your email address:");
+                step++;
+            } else if (step === 2) {
+                userData.email = userInput;
+                addBotMessage("What are your requirements? Select from below:");
+                showOptions();
+                step++;
+            }
+        }
+
+        function showOptions() {
+            const chatBody = document.getElementById("chatBody");
+            let checkboxContainer = document.createElement("div");
+            checkboxContainer.classList.add("checkbox-container");
+
+            options.forEach(option => {
+                let label = document.createElement("label");
+                let checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.value = option;
+                checkbox.onchange = toggleSubmitButton;
+                label.appendChild(checkbox);
+                label.appendChild(document.createTextNode(" " + option));
+                checkboxContainer.appendChild(label);
+            });
+
+            let queryInput = document.createElement("input");
+            queryInput.type = "text";
+            queryInput.placeholder = "Any other query...";
+            queryInput.id = "queryInput";
+            queryInput.style.marginTop = "10px";
+            queryInput.style.padding = "5px";
+            queryInput.oninput = toggleSubmitButton;
+
+            chatBody.appendChild(checkboxContainer);
+            chatBody.appendChild(queryInput);
+            showSubmitButton();
+        }
+
+        function showSubmitButton() {
+            const chatBody = document.getElementById("chatBody");
+            let button = document.createElement("button");
+            button.innerText = "Submit";
+            button.classList.add("submit-button");
+            button.id = "submitButton";
+            button.onclick = submitForm;
+            chatBody.appendChild(button);
+        }
+
+        function toggleSubmitButton() {
+            let selectedOptions = document.querySelectorAll(".checkbox-container input[type='checkbox']:checked").length > 0;
+            let otherQuery = document.getElementById("queryInput").value.trim().length > 0;
+            let submitButton = document.getElementById("submitButton");
+            
+            if (selectedOptions || otherQuery) {
+                submitButton.style.display = "block";
+            } else {
+                submitButton.style.display = "none";
+            }
+        }
+
+        function submitForm() {
+            console.log("User Data Submitted:", userData);
+
+            // Clear everything and show only "Thank you!"
+            const chatBody = document.getElementById("chatBody");
+            chatBody.innerHTML = "<div class='chat-message'>Thank you!</div>";
+
+            // Remove input fields
+            document.querySelector(".chat-input-container").style.display = "none";
+
+            // Close chat after 2 seconds
+            setTimeout(() => {
+                closeChat();
+                document.querySelector(".chat-input-container").style.display = "flex"; // Restore input fields for next session
+            }, 2000);
+        }
+
+        function addUserMessage(text) {
+            document.getElementById("chatBody").innerHTML += `<div class='chat-message user-message'>${text}</div>`;
+        }
+
+        function addBotMessage(text) {
+            document.getElementById("chatBody").innerHTML += `<div class='chat-message'>${text}</div>`;
+        }
+    </script>
+
+</body>
+</html>

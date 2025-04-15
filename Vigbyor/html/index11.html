@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WhatsApp Popup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- Font Awesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        /* Sticky WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            z-index: 1000;
+        }
+
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            background-color: #1ebe57;
+        }
+
+        /* Icon inside WhatsApp Button */
+        .whatsapp-btn i {
+            font-size: 30px;
+        }
+
+        /* Modal Styling */
+        .modal-content {
+            border-radius: 10px;
+        }
+
+        .modal-header {
+            background-color: #fdd835;
+            color: #333;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        .card {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Sticky WhatsApp Button -->
+<div class="whatsapp-btn" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+    <i class="far fa-comment-dots"></i>
+</div>
+
+<!-- WhatsApp Popup Modal -->
+<div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="whatsappModalLabel">Chat with Us on WhatsApp</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <h3 class="text-warning">VIBGYOR</h3>
+                    <p>Hi there! 👋 Welcome to Vibgyor! Please share your information so our design experts can assist you today. I'm here to help 😊</p>
+
+                    <form>
+                        <!-- Phone Number Field -->
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Your Phone Number to Contact You Right Away</label>
+                            <div class="input-group">
+                                <span class="input-group-text">+91</span>
+                                <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-text">@</span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-success w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
