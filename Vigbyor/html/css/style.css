@@ -327,7 +327,7 @@ z-index: 999;
 header.init {
 margin-bottom: 0px;
 width: 100%;
-padding: 15px 0;
+padding: 1px 0;
 background: #313840 !important;
 box-shadow: 0px 10px 60px rgba(0, 0, 0, 0);
 -webkit-transition: all .5s cubic-bezier(.165, .84, .44, 1);
@@ -1226,7 +1226,14 @@ height: 350px;
   padding: 10px;
   margin-top: 150px;
 }
-
+.imgbg-png1{
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+  margin-top: 50px;
+}
 .detailcontent{
   display: block;
   padding: 90px 5%;
@@ -1306,47 +1313,67 @@ height: 350px;
     color:#fff;
 }
 .btn-content1 { 
- display: flex;
- margin-left: 45%;
-  width: max-content;
-  height: auto;
-  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 14px 40px;
+  width: fit-content;
+  max-width: 90%;
+  font-size: 1rem;
   font-weight: 800;
   text-align: center;
-  letter-spacing:1px;
+  letter-spacing: 1px;
   text-shadow: none;
-  line-height: 15px;
-  padding: 14px 40px;
+  line-height: 1.5;
   background: #f07c00;
   cursor: pointer;
   overflow: hidden;
-  -ms-transform: scale(1, 1);
-  transform: scale(1, 1);
-  -moz-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
+  transform: scale(1);
+  transition: all 0.3s ease;
 }
-.btn-content1 a{
-    text-decoration: none;
-    font-weight: 800;
-    color: #fff;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+
+.btn-content1 a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
-.btn-content1:hover { 
-    background: #f07c05;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+
+.btn-content1:hover {
+  background: #f07c05;
 }
-.btn-content1:hover .shine{
-    -webkit-animation: sheen .9s alternate;
-    animation: sheen .9s alternate;
-} 
-.btn-content1:hover a{ 
-    color:#fff;
+
+.btn-content1:hover .shine {
+  animation: sheen 0.9s alternate;
 }
+
+.btn-content1:hover a {
+  color: #fff;
+}
+
+/* Optional sheen animation */
+@keyframes sheen {
+  0% { background-position: -100px; }
+  100% { background-position: 200px; }
+}
+
+/* 🔄 Responsive font size */
+@media (max-width: 768px) {
+  .btn-content1 {
+    font-size: 0.9rem;
+    padding: 12px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-content1 {
+    font-size: 0.85rem;
+    padding: 10px 25px;
+    flex-wrap: wrap;
+  }
+}
+
 .image-slider {
   position: relative;
   width: 100%;
@@ -2168,9 +2195,21 @@ transition: all .9s ease;
   cursor: pointer;
   font-size: 14px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
   border-radius: 5px;
 }
+.read-more-btn1 {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
 
 .read-more-btn:hover {
   background-color: #0056b3;
@@ -4122,4 +4161,42 @@ label{
 }
 .pop{
   background:  #f07c05;
+}
+
+.detailcontent1{
+  display: block;
+  padding: 10px 5%;
+  line-height: 2;
+  letter-spacing: .3px;
+}
+.detailcontent1 .icon{
+  width: max-content;
+  height: auto;
+}
+.detailcontent1 .icon img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bgblack{
+  background: #292e34;
+  color: #fff;
+}
+.detailcontent1 .subheading{
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.detailcontent1 .heading{
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #464646;
+  margin: 5px 0 20px;
+  line-height: 1.2;
+}
+.detailcontent1 .textdetail{
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: left;
 }
