@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "email.Controllers.ChatController",
+    "Method": "Submit",
+    "RelativePath": "api/Chat/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "email.Models.ContactModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibgyorAPI.Controllers.RequirementsController",
+    "Method": "Submit",
+    "RelativePath": "api/Requirements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VibgyorAPI.Models.RequirementRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

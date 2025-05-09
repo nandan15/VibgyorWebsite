@@ -1,0 +1,138 @@
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\appsettings.json
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\email.staticwebassets.endpoints.json
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\email.exe
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\email.deps.json
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\email.runtimeconfig.json
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\email.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\email.pdb
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\MailKit.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.csproj.AssemblyReference.cache
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.AssemblyInfoInputs.cache
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.AssemblyInfo.cs
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.csproj.CoreCompileInputs.cache
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\scopedcss\bundle\email.styles.css
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets\msbuild.email.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets\msbuild.email.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets\msbuild.build.email.props
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.email.props
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.email.props
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.csproj.Up2Date
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\refint\email.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.pdb
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\email.genruntimeconfig.cache
+C:\Users\Likhi-Lap01\source\repos\email\email\obj\Debug\net8.0\ref\email.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\System.Web.Http.WebHost.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Likhi-Lap01\source\repos\email\email\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\appsettings.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\email.staticwebassets.endpoints.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\email.exe
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\email.deps.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\email.runtimeconfig.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\email.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\email.pdb
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\MailKit.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\System.Web.Http.WebHost.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.csproj.AssemblyReference.cache
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.AssemblyInfoInputs.cache
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.AssemblyInfo.cs
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.csproj.CoreCompileInputs.cache
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\scopedcss\bundle\email.styles.css
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.email.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.email.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.build.email.props
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.email.props
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.email.props
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.csproj.Up2Date
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\refint\email.dll
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.pdb
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\email.genruntimeconfig.cache
+C:\Users\Likhitech-01\Downloads\Email Sending API\email\email\obj\Debug\net8.0\ref\email.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\appsettings.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\email.staticwebassets.endpoints.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\email.exe
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\email.deps.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\email.runtimeconfig.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\email.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\email.pdb
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\MailKit.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\System.Web.Http.WebHost.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.csproj.AssemblyReference.cache
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.AssemblyInfoInputs.cache
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.AssemblyInfo.cs
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.csproj.CoreCompileInputs.cache
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\scopedcss\bundle\email.styles.css
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.email.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.email.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.build.email.props
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.email.props
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.email.props
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.csproj.Up2Date
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\refint\email.dll
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.pdb
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\email.genruntimeconfig.cache
+C:\Users\Likhi-Lap01\Desktop\Email Sending API\email\email\obj\Debug\net8.0\ref\email.dll

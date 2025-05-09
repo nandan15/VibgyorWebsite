@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "wZ0qFRUtVEl2KKe0zA3Nli6KqYFooVxkyV8gCwgekpU=",
+  "Source": "email",
+  "BasePath": "_content/email",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
