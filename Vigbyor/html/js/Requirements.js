@@ -1,28 +1,21 @@
 $(document).ready(function () {
   $("#send-contact").click(function (e) {
     e.preventDefault();
-
     var isValid = true;
-
     var name = $("#name-contact").val().trim();
     var email = $("#email-contact").val().trim();
     var phone = $("#number-contact").val().trim();
     var property = $("#property-contact").val().trim();
     var requirements = [];
-
     $(".requirement-checkbox:checked").each(function () {
       requirements.push($(this).val());
     });
-
-   
     if (!name) {
       $("#name-contact").addClass("is-invalid");
       isValid = false;
     } else {
       $("#name-contact").removeClass("is-invalid").addClass("is-valid");
     }
-
-
     if (!email) {
       $("#email-contact").addClass("is-invalid");
       isValid = false;
@@ -32,8 +25,6 @@ $(document).ready(function () {
     } else {
       $("#email-contact").removeClass("is-invalid").addClass("is-valid");
     }
-
- 
     if (!phone) {
       $("#number-contact").addClass("is-invalid");
       isValid = false;
@@ -43,25 +34,20 @@ $(document).ready(function () {
     } else {
       $("#number-contact").removeClass("is-invalid").addClass("is-valid");
     }
-
-  
     if (!property) {
       $("#property-contact").addClass("is-invalid");
       isValid = false;
     } else {
       $("#property-contact").removeClass("is-invalid").addClass("is-valid");
     }
-
-
     if (requirements.length === 0) {
       $("#checkbox-error").removeClass("d-none");
       isValid = false;
     } else {
       $("#checkbox-error").addClass("d-none");
     }
-
     if (!isValid) return;
-
+    
     var data = {
       name: name,
       email: email,
@@ -69,11 +55,14 @@ $(document).ready(function () {
       property: property,
       requirements: requirements
     };
-
+    
     console.log("Data to be sent:", data);
-
+    const apiUrl = window.location.hostname === 'localhost' 
+      ? 'https://localhost:7223/api/requirements'
+      : '/api/requirements'; 
+    
     $.ajax({
-      url: "https://localhost:7223/api/requirements", 
+      url: apiUrl,
       type: "POST",
       contentType: "application/json",
       data: JSON.stringify(data),
@@ -88,23 +77,17 @@ $(document).ready(function () {
       }
     });
   });
-
-
   $("#form-contact1 input").on("input", function () {
     $(this).removeClass("is-invalid");
   });
-
   $(".requirement-checkbox").on("change", function () {
     $("#checkbox-error").addClass("d-none");
   });
-
-
   function validateEmail(email) {
     let re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
   }
-
-
+  
   function validatePhoneNumber(number) {
     let re = /^[0-9]{10}$/;
     return re.test(number);
